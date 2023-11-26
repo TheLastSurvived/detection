@@ -22,7 +22,7 @@ threshold = 0.75         # PROBABLITY THRESHOLD
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 app = Flask(__name__)
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 cap.set(3, frameWidth)
 cap.set(4, frameHeight)
 cap.set(10, brightness)
